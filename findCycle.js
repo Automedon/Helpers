@@ -3,6 +3,6 @@ function findCycle(arr){
     if(arr.every((n,i)=>n===arr[i%l])) return +arr.slice(0,l).join('');
   }
 }
-function  (string) {
+function findCycle(string) {
   return string.match(/^(.*?)\1+$/);
 }
