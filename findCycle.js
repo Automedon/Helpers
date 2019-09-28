@@ -4,5 +4,5 @@ function findCycle(arr){
   }
 }
 function  (string) {
-  return s.match(/^(.*?)\1+$/);
+  return string.match(/^(.*?)\1+$/);
 }
